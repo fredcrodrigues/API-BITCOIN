@@ -12,7 +12,7 @@
 <div class="form-group">
     <label for="dayFilter">Data inicial</label>
     <input id="dayFilter" type="date" class="form-control" value="@StartDate.ToString("yyyy-MM-dd")"
-           min="@DateTime.Now.AddMonths(-1).ToString("yyyy-MM-dd")" max="@DateTime.Now.ToString("yyyy-MM-dd")"
+            max="@DateTime.Now.ToString("yyyy-MM-dd")"
          @onchange="@(async (e) => await ChangeDay(DateTime.Parse(e.Value.ToString())))" />
 </div>
 

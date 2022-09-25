@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fredson\\source\\repos\\API\\API.csproj": {}
+    "C:\\Users\\Vinícius\\source\\repos\\API-BITCOIN\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fredson\\source\\repos\\API\\API.csproj": {
+    "C:\\Users\\Vinícius\\source\\repos\\API-BITCOIN\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fredson\\source\\repos\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Vinícius\\source\\repos\\API-BITCOIN\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Fredson\\source\\repos\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Fredson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fredson\\source\\repos\\API\\obj\\",
+        "projectPath": "C:\\Users\\Vinícius\\source\\repos\\API-BITCOIN\\API.csproj",
+        "packagesPath": "C:\\Users\\Vinícius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinícius\\source\\repos\\API-BITCOIN\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Fredson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Vinícius\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
