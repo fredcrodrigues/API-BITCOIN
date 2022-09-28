@@ -10,7 +10,7 @@
 <h1>Valor de fechamento BITCOIN por dia</h1>
 
 <div class="form-group">
-    <label for="dayFilter">Data inicial</label>
+    <label for="dayFilter">Selecione uma data</label>
     <input id="dayFilter" type="date" class="form-control" value="@StartDate.ToString("yyyy-MM-dd")"
             max="@DateTime.Now.ToString("yyyy-MM-dd")"
          @onchange="@(async (e) => await ChangeDay(DateTime.Parse(e.Value.ToString())))" />
@@ -66,7 +66,7 @@ else
             {
                 Margin = new Plotly.Blazor.LayoutLib.Margin()
                 {
-                    Pad = 10
+                    Pad = 20
                 },
                 YAxis = new List<Plotly.Blazor.LayoutLib.YAxis>()
                         {
@@ -85,7 +85,6 @@ else
         yAxisMax = 60000;
         StartDate = DateTime.Now.AddDays(-1);
         forecasts = await BitcoinService.FindBy(StartDate);
-        Console.WriteLine("Chegou");
 
         await LoadChartData();
     }
