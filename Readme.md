@@ -1,4 +1,4 @@
-﻿##API-BITCOIN
+﻿## API-BITCOIN
 
 
 Este Projeto é uma API que mostra o valor da contação de Bitcoin por dia de todos os anos desde que a cripto moeda foi criada. Está tecnologia é uma API capaz de obter essa informações, Está desenvolvida em c#, .net usando o framework *BLAZOR*.
