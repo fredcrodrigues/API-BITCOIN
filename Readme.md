@@ -20,5 +20,5 @@ O projeto exibe um gráfico de cotação diária do bitcoin, apenas selecionado 
 # Resultados
 A tela princial da aplicação blazor.
 
-![Screenshot](/Screams/Visao-geral)
+![Screenshot](/Screams/Visao-geral.jpg)
 
