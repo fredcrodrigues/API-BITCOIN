@@ -19,8 +19,8 @@ namespace API.Services
             var jsonResult = await response.Content.ReadAsStringAsync();
             response.EnsureSuccessStatusCode();
 
-            Console.WriteLine("Testando Api", jsonResult);
 
+           
             JObject jObject = JObject.Parse(jsonResult);
             var values = jObject.SelectToken("data.values").ToString();
             if (string.IsNullOrWhiteSpace(values))
